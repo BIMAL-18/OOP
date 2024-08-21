@@ -13,7 +13,6 @@ int main() {
     int y = 40;
     cout << "Maximum of " << x << " and " << y << " is = " << maximum(x, y) << endl;
 
-    // Demonstrate with character type
     char c1 = 'v';
     char c2 = 'k';
     cout << "Maximum of '" << c1 << "' and '" << c2 << "' is ' = " << maximum(c1, c2) << endl;

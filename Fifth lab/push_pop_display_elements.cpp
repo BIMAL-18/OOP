@@ -20,9 +20,10 @@ public:
     void pop() {
         if (flag < 0) {
             cout << "Stack is Empty" << endl;
-        }
+        }else{
         flag--; 
     }
+}
     void display()  {
         cout << "Stack elements: ";
         for (int i = 0; i <= flag; i++) {

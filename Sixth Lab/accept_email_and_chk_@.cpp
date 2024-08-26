@@ -10,7 +10,7 @@ int main() {
             cout << "Enter Email Id : ";
             cin >> email;
 
-            if (email.find('@') == string::npos) { 
+            if (email.find('@') == string::npos || email.find('.') == string::npos) { 
                 throw runtime_error("Invalid Email Id!!!");
             } 
 

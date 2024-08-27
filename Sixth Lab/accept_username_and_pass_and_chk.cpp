@@ -16,8 +16,8 @@ int main() {
             throw runtime_error("Password must be at least 6 Characters Long...");
         }
         bool Digit = false;
-        for (char c : password) {
-            if (isdigit(c)) {
+        for (int i = 0 ; i<password.length() ; i++) {
+            if (isdigit(password[i])) {
                 Digit = true;
                 break; 
             }

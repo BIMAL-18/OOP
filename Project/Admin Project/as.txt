@@ -1,0 +1,8 @@
+Course Registration Form
+Name            : Bimal
+Email           : as
+Phone           : knasd
+Start Date      : a
+Preferred Time  : da
+Reason for Enrolling : d
+-------------------------------

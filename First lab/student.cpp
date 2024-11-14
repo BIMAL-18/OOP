@@ -1,3 +1,6 @@
+// Create class students with data members student name, roll and age.
+// member functions getname, setname, getage, setage, getroll, setroll, display details.
+
 #include <iostream>
 #include <string>
 using namespace std;

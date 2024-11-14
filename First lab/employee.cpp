@@ -1,3 +1,5 @@
+// Create a class called employee  with data members emp_id, name, salary and member function display details.
+// initialize data members using parameterized constructor. Data members must be private.
 #include <iostream>
 using namespace std;
 

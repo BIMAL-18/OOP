@@ -29,3 +29,29 @@ int main() {
 
     return 0;
 }
+
+Another easy way
+
+
+#include <iostream>
+#include <stdexcept>
+#include <string>
+
+using namespace std;
+
+int main() {
+    string email;
+    cout << "Enter your email address: ";
+    cin >> email;
+
+    try {
+        if (email.find('@') == string::npos) {
+            throw runtime_error("Invalid email address: '@' symbol missing");
+        }
+        cout << "Email address is valid.\n";
+    } catch (const runtime_error& e) {
+        cerr << "Error: " << e.what() << '\n';
+    }
+
+    return 0;
+}

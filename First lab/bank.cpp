@@ -1,3 +1,6 @@
+// Define a class bank to represent bank account with data members depositer name, acc_number, acc_type(as static), acc_balance.
+// member function withdraw amount, deposit amount. friend function display details to display all the details.
+
 #include <iostream>
 #include <string>
 using namespace std;

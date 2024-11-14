@@ -1,3 +1,5 @@
+// 2. Create a class car with data members cc, speed, color and member function start, stop, accelerate
+
 #include <iostream>
 using namespace std;
 
